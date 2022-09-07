@@ -47,3 +47,7 @@
 #13
 a,b = input().split('-')
 print(a+b)
+
+#14
+h,m,s = input().split(':')
+print(m)
