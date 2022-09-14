@@ -52,3 +52,36 @@ print(a+b)
 h,m,s = input().split(':')
 print(m)
 
+#15
+f1, f2 = input().split()
+f1 = float(f1)
+f2 = float(f2)
+print(f1**f2)
+
+#16
+f1, f2 = input().split()
+f1 = float(f1)
+f2 = float(f2)
+print(format(f1/f2, ".3f"))
+
+#17
+a, b = input().split()
+a = int(a)
+b = int(b)
+print(a+b)
+print(a-b)
+print(a*b)
+print(a//b)
+print(a%b)
+print(format(a/b, ".2f"))
+
+#18
+a, b = input().split()
+a = int(a)
+b = int(b)
+if a == False and b == False:
+    print(True)
+else:
+    print(False)
+    
+#19
