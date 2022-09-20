@@ -133,3 +133,25 @@ while True:
         break
 
 #23
+
+#설명
+a = input()
+for i in range(1, int(a)+1):
+    cnt = 0
+    i = str(i)
+    if '3' in i:
+        b = i.count('3')
+        cnt += b
+    if '6' in i:
+        c = i.count('6')
+        cnt += c
+    if '9' in i:
+        d = i.count('9')
+        cnt += d
+    if cnt > 0:
+        print('X' * cnt, end = ' ')
+    else:
+        print(i, end = ' ')
+
+#24
+
