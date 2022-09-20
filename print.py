@@ -85,3 +85,51 @@ else:
     print(False)
     
 #19
+a = input()
+if a == 'A':
+    print('best!!!')
+elif a == 'B':
+    print('good!!')
+elif a == 'C':
+    print('run!')
+elif a == 'D':
+    print('slowly~')
+else:
+    print('what?')
+    
+#설명
+a = int(input())
+if a//3 == 1:
+    print('spring')
+elif a//3 == 2:
+    print('summer')
+elif a//3 == 2:
+    print('fall')
+else:
+    print('winter')
+    
+#20
+a = int(input())
+while a > 0:
+    print(a-1)
+    a -= 1
+
+#설명
+a = input()
+b = ord(a)
+for i in range(97,b+1):
+    print(chr(i), end=' ')
+
+#21
+a = int(input())
+for i in range(a+1):
+    print(i)
+    
+#22
+while True:
+    a = input()
+    print(a)
+    if a == 'q':
+        break
+
+#23
