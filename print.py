@@ -155,3 +155,46 @@ for i in range(1, int(a)+1):
 
 #24
 
+#25
+
+#설명
+n = int(input())
+m = 0
+for i in range(1,n+1):
+    m += i
+    if m >= n:
+        break
+print(m)
+
+#설명
+n = int(input())
+for i in range(1, n+1):
+    if i % 3 == 0:
+        continue
+    print(i, end=' ')
+    
+#26
+a, b, c = input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+d = a + b * (c-1)
+print(d)
+
+#27
+a, b, c = input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+d = a*b**(c-1)
+print(d)
+
+#28
+a, b, c, d = input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+d = int(d)
+for i in range(d-1):
+    a = a*b+c
+print(a)
