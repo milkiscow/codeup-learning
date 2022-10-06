@@ -198,3 +198,19 @@ d = int(d)
 for i in range(d-1):
     a = a*b+c
 print(a)
+
+#29
+n = int(input())
+a = input().split()
+for i in range(n-1, -1, -1):
+    print(a[i], end=' ')
+    
+#30
+n = int(input())
+a = input().split()
+d = 10000
+for i in a:
+    if int(i) < int(d):
+        d = i
+print(d)
+
